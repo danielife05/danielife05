@@ -2,11 +2,11 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- Header Section -->
-<div id="user-content-toc" align="center">
-  <h1 style="display: inline-block; font-size: 2.5rem; font-weight: bold; color: cyan; text-shadow: 0px 0px 10px cyan;">
-    Hi there 👋, I'm <span style="color: red; text-shadow: 0px 0px 10px red;">Daniel</span>
-  </h1>
-</div>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00F7F7&center=true&vCenter=true&width=500&lines=Hi+there+👋;I'm+Daniel+%F0%9F%92%BB" alt="Typing SVG">
+  </a>
+</h1>
 
 <!-- Intro Paragraph -->
 <h3 align="center" style="color: white; font-weight: bold;">
