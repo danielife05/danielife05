@@ -1,55 +1,78 @@
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<div align="center">
 
-<!-- Header Section -->
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00F7F7&center=true&vCenter=true&width=500&lines=Hi+there+👋;I'm+Daniel+%F0%9F%92%BB" alt="Typing SVG">
-  </a>
-</h1>
+<br />
 
-<!-- Intro Paragraph -->
-<h3 align="center" style="color: white; font-weight: bold;">
-  I am a <span style="color: cyan;">Computer Science</span> student at 
-  <span style="color: cyan;">Escuela Politécnica Nacional, Ecuador</span>, 
-  with a passion for <span style="color: cyan;">technology</span>, 
-  <span style="color: cyan;">problem-solving</span>, and <span style="color: cyan;">innovation</span>. ❤️💻
-</h3>
+# Daniel Flores Espín
 
-<!-- Stats & Trophy (start) -->
-<h3 align="center" style="color: cyan; font-weight: bold; text-shadow: 0px 0px 10px cyan;">🛠️ Tools & Technologies</h3>
-<p align="center">
-  <a href="https://github.com/danielife05">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielife05&theme=tokyonight&layout=compact" 
-         alt="danielife05's Top Languages">
-  </a>
-</p>
-<!-- Stats (end) -->
+<sub>Computer Science  ·  Escuela Politécnica Nacional  ·  Quito, Ecuador</sub>
 
+<br />
+<br />
 
-<!-- Skills & Tools -->
-<h3 align="center" style="color: cyan; font-weight: bold; text-shadow: 0px 0px 10px cyan;">💻 Know/Using</h3>
-<p align="center">
-  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="40" alt="Git"/></a>
-  <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="40" alt="GitHub"/></a>
-  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="40" alt="Python"/></a>
-  <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="40" alt="Java"/></a>
-  <a href="https://learn.microsoft.com/en-us/windows/wsl/"><img src="https://skillicons.dev/icons?i=linux" width="40" alt="WSL"/></a>
-  <a href="https://netbeans.apache.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg" width="40" alt="NetBeans"/></a>
-  <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="40" alt="VS Code"/></a>
-  <a href="https://www.gnu.org/software/emacs/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" width="40" alt="Emacs"/></a>
-</p>
-<!-- Skills & Tools (end) -->
+*I build software that's careful about details — most of it lives somewhere between systems programming and the web.*
 
-<!--Github Page-->
-<h3 align="center"  style="color: cyan; font-weight: bold; text-shadow: 0px 0px 10px cyan;">More About me...</h3>
-<p align="center">
-  <img src="https://media.giphy.com/media/5a50CAL0vy0dH9A0wH/giphy.gif" width="50">
-  <a href="https://danielife05.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-My%20GitHub%20Page-blue?style=for-the-badge&logo=github" alt="GitHub Page Badge"/>
-  </a>
-  <img src="https://media.giphy.com/media/5a50CAL0vy0dH9A0wH/giphy.gif" width="50" style="transform: scaleX(-1);">
-</p>
+<sub>*Construyo software con atención al detalle — casi todo vive entre la programación de sistemas y la web.*</sub>
 
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<br />
+
+---
+
+<br />
+
+#### Selected work · Trabajo seleccionado
+
+<br />
+
+[**EndoNova**](https://github.com/danielife05/EndoNova)  ·  Sistema de gestión dental  
+<sub>Dental clinic management system</sub>
+
+<br />
+
+[**IncreasingTable**](https://github.com/danielife05/IncreasingTable)  ·  Resolución de IEEEXtreme 18.0  
+<sub>IEEEXtreme 18.0 exercise solution</sub>
+
+<br />
+
+[**Web-Scrapping**](https://github.com/danielife05/Web-Scrapping)  ·  Experimentos de scraping web  
+<sub>Web scraping experiments</sub>
+
+<br />
+
+[**ProyectoTelescopio**](https://github.com/danielife05/ProyectoTelescopio)  ·  Simulación 2D del telescopio James Webb  
+<sub>2D simulation of the James Webb telescope</sub>
+
+<br />
+
+[**IEEE754**](https://github.com/danielife05/IEEE754)  ·  Conversor decimal a IEEE 754  
+<sub>Decimal to IEEE 754 converter</sub>
+
+<br />
+
+---
+
+<br />
+
+#### Stack
+
+<br />
+
+<sub>**Lenguajes**</sub>  &nbsp; Python  ·  Java  ·  C  ·  C++  ·  JavaScript
+
+<sub>**Web**</sub>  &nbsp; HTML  ·  CSS  ·  React
+
+<sub>**Datos**</sub>  &nbsp; SQL  ·  MySQL  ·  PostgreSQL
+
+<sub>**Entorno**</sub>  &nbsp; Git  ·  GitHub  ·  VS Code  ·  Linux
+
+<br />
+
+---
+
+<br />
+
+<sub>[LinkedIn](https://www.linkedin.com/in/daniel-flores-esp%C3%ADn-83b648352/)  ·  [Instagram](https://instagram.com/idann005)  ·  [Email](mailto:floresdanielism05@gmail.com)</sub>
+
+<br />
+<br />
+
+</div>
