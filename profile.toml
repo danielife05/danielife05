@@ -1,0 +1,197 @@
+# Única fuente de contenido del perfil. `python3 scripts/generate.py` produce assets/*.svg y README.md
+# a partir de este archivo: no se editan a mano.
+#
+# Regla de contenido: solo entra lo que tiene respaldo (un repo público, la web personal, el sitio
+# del Laboratorio ADA). Nada de cifras internas de la base de datos del TIC ni nombres de servidores.
+
+[person]
+name = "Daniel Flores"
+affiliation = "Computer Science · Escuela Politécnica Nacional · Quito"
+tag_short = "Computer Science · EPN · Quito"
+tagline_en = "I build data pipelines and applied ML — from raw web data to structured insight."
+tagline_es = "Construyo pipelines de datos y ML aplicado: de datos crudos de la web a información estructurada."
+# Líneas que se tipean y rotan en la cabecera (≤ 25 caracteres: caben en móvil).
+phrases = ["Data pipelines", "Embeddings & NLP", "Python · MongoDB · Docker", "Competitive programming"]
+open_en = "Open to internships and projects"
+open_es = "Disponible para pasantías y proyectos"
+location = "Quito, Ecuador"
+
+[contact]
+email = "floresdanielism05@gmail.com"
+linkedin = "https://www.linkedin.com/in/daniel-flores-esp%C3%ADn-83b648352/"
+website = "https://danielife05.github.io/"
+
+[pipeline]
+code = "PIIF-24-05"
+page = "https://adalab.epn.edu.ec/proyectos/ofertas-laborales-piif-24-05/"
+caption_en = "Ongoing team project at Laboratorio ADA, EPN: job offers flow through a medallion pipeline toward a labor-market observatory. I work on architecture, deployment and pipeline workflows."
+caption_es = "Proyecto de equipo en curso del Laboratorio ADA (EPN): las ofertas laborales pasan por un pipeline medallón hacia un observatorio del mercado laboral. Mi parte: arquitectura, despliegue y flujos del pipeline."
+footer_left = "Medallion architecture"
+footer_right = "Team project · Lab ADA, EPN"
+
+[[pipeline.nodes]]
+name = "Offers"
+sub = "scrape"
+color = "#38bdf8"
+icon = "globe"
+
+[[pipeline.nodes]]
+name = "Bronze"
+sub = "raw"
+color = "#e0893a"
+icon = "database"
+
+[[pipeline.nodes]]
+name = "Silver"
+sub = "clean"
+color = "#b4bfd3"
+icon = "funnel"
+
+[[pipeline.nodes]]
+name = "Gold"
+sub = "embed"
+color = "#ffc83d"
+icon = "gem"
+
+[[pipeline.nodes]]
+name = "Observatory"
+sub = "insights"
+color = "#a78bfa"
+icon = "eye"
+
+[achievements]
+certs_en = "Certifications: Oracle Certified Foundations Associate · Cisco Python Essentials 1 & 2 · Generative AI on AWS · English B1"
+certs_es = "Certificaciones: Oracle Foundations Associate · Python Essentials 1 y 2 (Cisco) · IA generativa en AWS · inglés B1"
+
+[[achievements.items]]
+big = "#48"
+label = "IEEEXtreme 19.0"
+detail = "worldwide, as a team · 3rd in Ecuador"
+accent = "#ffc83d"
+icon = "trophy"
+
+[[achievements.items]]
+big = "1st"
+label = "CyberMinds CTF 2025"
+detail = "within EPN"
+accent = "#38bdf8"
+icon = "flag"
+
+[[achievements.items]]
+big = "~40%"
+label = "Less manual work"
+detail = "MINTEL · Power Automate"
+accent = "#4ade80"
+icon = "bolt"
+
+# Tarjetas de proyecto: cada una enlaza a su repo público o a la página pública del proyecto.
+[[projects]]
+tag = "PIIF-24-05 · LAB ADA · ONGOING"
+title = "Labor-market observatory"
+desc = "Pipeline that turns scraped job offers into skills insight for EPN careers."
+chips = ["Python", "MongoDB", "Docker"]
+url = "https://adalab.epn.edu.ec/proyectos/ofertas-laborales-piif-24-05/"
+link = "details"
+accent = "multi"
+
+[[projects]]
+tag = "DATA ANALYSIS · INEC"
+title = "Graduate underemployment"
+desc = "Where underemployment concentrates among degree holders: weighted INEC ENEMDU analysis."
+chips = ["pandas", "Jupyter", "matplotlib"]
+url = "https://github.com/danielife05/analista-datos-enemdu"
+link = "github"
+accent = "#38bdf8"
+
+[[projects]]
+tag = "TEAM PROJECT · FULL STACK"
+title = "EndoNova"
+desc = "Dental-clinic management system for endodontic diagnosis and treatment records."
+chips = ["FastAPI", "React", "PostgreSQL", "Docker"]
+url = "https://github.com/danielife05/EndoNova"
+link = "github"
+accent = "#4ade80"
+
+[[projects]]
+tag = "NLP · GROUP PROJECT"
+title = "POS tagger · HMM"
+desc = "Part-of-speech tagger with Hidden Markov Models and Viterbi, trained on the Brown corpus."
+chips = ["HMM", "Viterbi", "NLP"]
+url = "https://github.com/danielife05/pos-tagger-hmm-brown-corpus"
+link = "github"
+accent = "#a78bfa"
+
+[[projects]]
+tag = "SYSTEMS · C"
+title = "Concurrent FTP client"
+desc = "FTP client in C with parallel transfers (pthreads) and resumable downloads."
+chips = ["C", "pthreads", "Linux"]
+url = "https://github.com/danielife05/FLoresD-clienteFTP"
+link = "github"
+accent = "#ffc83d"
+
+[[projects]]
+tag = "WEB · LAB ADA"
+title = "ADA Lab website"
+desc = "Static site for Laboratorio ADA at EPN: projects, team and blog."
+chips = ["Astro", "TypeScript", "GitLab CI"]
+url = "https://adalab.epn.edu.ec/"
+link = "live site"
+accent = "#e0893a"
+
+# Íconos: `si:` = simple-icons (CC0), `devicon:` = devicon (MIT). El color se cambia solo cuando el
+# oficial se pierde sobre el azul noche (GitHub, pandas, NumPy).
+[[skills]]
+group = "Languages"
+accent = "#38bdf8"
+items = [
+  { label = "Python", icon = "si:python", color = "#4b8bbe" },
+  { label = "C", icon = "si:c", color = "#a8b9cc" },
+  { label = "C++", icon = "si:cplusplus", color = "#3b9be0" },
+  { label = "Java", icon = "devicon:java" },
+  { label = "JavaScript", icon = "si:javascript", color = "#f7df1e" },
+  { label = "TypeScript", icon = "si:typescript", color = "#3178c6" },
+  { label = "Kotlin", icon = "si:kotlin", color = "#7f52ff" },
+]
+
+[[skills]]
+group = "Data & ML"
+accent = "#a78bfa"
+items = [
+  { label = "pandas", icon = "si:pandas", color = "#e70488" },
+  { label = "Hugging Face", icon = "si:huggingface", color = "#ffd21e" },
+  { label = "Jupyter", icon = "si:jupyter", color = "#f37626" },
+]
+
+[[skills]]
+group = "Web & APIs"
+accent = "#4ade80"
+items = [
+  { label = "FastAPI", icon = "si:fastapi", color = "#009688" },
+  { label = "React", icon = "si:react", color = "#61dafb" },
+  { label = "Astro", icon = "si:astro", color = "#bc52ee" },
+]
+
+[[skills]]
+group = "Databases"
+accent = "#ffc83d"
+items = [
+  { label = "MongoDB", icon = "si:mongodb", color = "#47a248" },
+  { label = "PostgreSQL", icon = "si:postgresql", color = "#6b8cf5" },
+  { label = "MySQL", icon = "si:mysql", color = "#6aa9d8" },
+]
+
+[[skills]]
+group = "Infra & tools"
+accent = "#e0893a"
+items = [
+  { label = "Docker", icon = "si:docker", color = "#2496ed" },
+  { label = "Linux", icon = "si:linux", color = "#fcc624" },
+  { label = "Git", icon = "si:git", color = "#f03c2e" },
+  { label = "GitHub", icon = "si:github", color = "#e6edf3" },
+  { label = "AWS", icon = "devicon:aws" },
+]
+
+[stats]
+user = "danielife05"
+since = 2023

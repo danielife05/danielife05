@@ -1,0 +1,51 @@
+# Refresca la tarjeta «repos por lenguaje» con datos públicos de la API de GitHub.
+# Permiso mínimo: solo escribir en este repo, con el GITHUB_TOKEN que GitHub da a la ejecución (no hay
+# secretos propios). El token de escritura NO está disponible mientras se instalan dependencias: el
+# checkout no lo persiste y solo el último paso lo usa, para el push. Solo hace commit si algo cambió.
+# Nota: GitHub desactiva los workflows programados tras 60 días sin actividad en el repo.
+name: refresh-stats
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # lunes 06:17 UTC (01:17 en Ecuador)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Descargar repos públicos
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/fetch_repos.py
+      - name: Regenerar SVG y README
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install --quiet --require-hashes -r scripts/requirements.txt
+          .venv/bin/python scripts/generate.py
+      - name: Puerta de calidad
+        run: python3 scripts/check.py
+      - name: Commit y push si cambió algo
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ -z "$(git status --porcelain -- data assets README.md)" ]; then
+            echo "Sin cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets README.md
+          git commit -m "chore: refresh repo stats"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git" HEAD:main

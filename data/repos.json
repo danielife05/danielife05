@@ -1,0 +1,216 @@
+{
+ "user": "danielife05",
+ "generated": "2026-10-21",
+ "repos": [
+  {
+   "name": "analista-datos-enemdu",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-09-09"
+  },
+  {
+   "name": "bad_website_Class",
+   "language": "CSS",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-04-21"
+  },
+  {
+   "name": "CicloDeVida-AM",
+   "language": "Kotlin",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-06-05"
+  },
+  {
+   "name": "Clima-Toronto",
+   "language": null,
+   "fork": true,
+   "archived": false,
+   "pushed_at": "2024-08-14"
+  },
+  {
+   "name": "core",
+   "language": "Python",
+   "fork": true,
+   "archived": false,
+   "pushed_at": "2025-05-25"
+  },
+  {
+   "name": "Cripta-47",
+   "language": "JavaScript",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-11-18"
+  },
+  {
+   "name": "danielife05",
+   "language": null,
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-06-10"
+  },
+  {
+   "name": "EndoNova",
+   "language": "TypeScript",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-01-26"
+  },
+  {
+   "name": "Examen-MN",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-28"
+  },
+  {
+   "name": "EXAMEN-MS",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-28"
+  },
+  {
+   "name": "Examen2",
+   "language": "Jupyter Notebook",
+   "fork": true,
+   "archived": false,
+   "pushed_at": "2025-02-06"
+  },
+  {
+   "name": "FLoresD-clienteFTP",
+   "language": "C",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-11-21"
+  },
+  {
+   "name": "FloresD-Proyecto2",
+   "language": "Shell",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-01-25"
+  },
+  {
+   "name": "FloresDaniel_ex1bim_ir26a",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-05-27"
+  },
+  {
+   "name": "IEEE754",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-04"
+  },
+  {
+   "name": "IncreasingTable",
+   "language": "Python",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-10-23"
+  },
+  {
+   "name": "ir26a",
+   "language": "Jupyter Notebook",
+   "fork": true,
+   "archived": false,
+   "pushed_at": "2026-07-15"
+  },
+  {
+   "name": "MinimosCuadrados-Determinante",
+   "language": "HTML",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-01-18"
+  },
+  {
+   "name": "pos-tagger-hmm-brown-corpus",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-01-22"
+  },
+  {
+   "name": "Process-Visualizer-OS-algorithms-",
+   "language": "Python",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-06-01"
+  },
+  {
+   "name": "Prototipado-vitus",
+   "language": "JavaScript",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2026-05-08"
+  },
+  {
+   "name": "Proyecto_EDA2",
+   "language": "Python",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-26"
+  },
+  {
+   "name": "ProyectoTelescopio",
+   "language": "Python",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-30"
+  },
+  {
+   "name": "Prueba-Cap3-4",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-01-11"
+  },
+  {
+   "name": "Taller-04-Minimos-cuadrados-DanielFlores",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-12-14"
+  },
+  {
+   "name": "Taller02-MN",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-09"
+  },
+  {
+   "name": "TALLER03",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-11-13"
+  },
+  {
+   "name": "TallerMN-Flores_Daniel",
+   "language": "Jupyter Notebook",
+   "fork": true,
+   "archived": false,
+   "pushed_at": "2025-02-05"
+  },
+  {
+   "name": "TAREAS-METODOS-NUMERICOS",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2025-02-05"
+  },
+  {
+   "name": "Web-Scrapping",
+   "language": "Jupyter Notebook",
+   "fork": false,
+   "archived": false,
+   "pushed_at": "2024-12-25"
+  }
+ ]
+}

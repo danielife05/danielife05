@@ -1,0 +1,43 @@
+# Puerta de calidad del perfil. Cuatro cosas distintas, a propósito:
+#   1. check.py: SVG autocontenidos, alt en toda imagen, reduced-motion, pesos, enlaces del README.
+#   2. Pruebas por mutación: la puerta de arriba, probada (una mutación por regla).
+#   3. Regenerar y comparar: README y SVG salen SOLO de profile.toml; una edición a mano falla aquí.
+#   4. Enlaces https del README responden (en un job aparte: la red no debe hacer fallar 1-3).
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Puerta de calidad
+        run: python3 scripts/check.py
+      - name: Pruebas por mutación de la puerta
+        run: python3 -m unittest discover tests -v
+      - name: Regenerar y comparar (el README y los SVG corresponden a profile.toml)
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install --quiet --require-hashes -r scripts/requirements.txt
+          .venv/bin/python scripts/generate.py
+          git status --porcelain -- README.md assets data
+          test -z "$(git status --porcelain -- README.md assets data)" || { echo "::error::README/assets no corresponden a profile.toml: regenerar con scripts/generate.py y hacer commit"; exit 1; }
+
+  links:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Enlaces https del README
+        run: python3 scripts/check.py --links
