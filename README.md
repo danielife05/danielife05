@@ -30,7 +30,7 @@
 
 <h3 align="center"><picture><source media="(max-width: 531px), (min-width: 768px) and (max-width: 819px)" srcset="assets/sec-5-m.svg"><source media="(max-width: 767px), (min-width: 820px) and (max-width: 1099px)" srcset="assets/sec-5-t.svg"><img src="assets/sec-5-d.svg" alt="Public repositories" width="840"></picture></h3>
 
-<picture><source media="(max-width: 531px), (min-width: 768px) and (max-width: 819px)" srcset="assets/stats-m.svg"><source media="(max-width: 767px), (min-width: 820px) and (max-width: 1099px)" srcset="assets/stats-t.svg"><img src="assets/stats-d.svg" alt="25 original public repositories, by language: Jupyter Notebook 12, Python 4, JavaScript 2, Kotlin 1, CSS 1" width="840"></picture>
+<picture><source media="(max-width: 531px), (min-width: 768px) and (max-width: 819px)" srcset="assets/stats-m.svg"><source media="(max-width: 767px), (min-width: 820px) and (max-width: 1099px)" srcset="assets/stats-t.svg"><img src="assets/stats-d.svg" alt="25 original public repositories, by language: Jupyter Notebook 12, Python 5, JavaScript 2, Kotlin 1, CSS 1" width="840"></picture>
 
 <h3 align="center"><picture><source media="(max-width: 531px), (min-width: 768px) and (max-width: 819px)" srcset="assets/sec-6-m.svg"><source media="(max-width: 767px), (min-width: 820px) and (max-width: 1099px)" srcset="assets/sec-6-t.svg"><img src="assets/sec-6-d.svg" alt="Contact" width="840"></picture></h3>
 
