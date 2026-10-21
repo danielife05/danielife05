@@ -28,7 +28,7 @@ def main() -> None:
         with urllib.request.urlopen(req, timeout=30) as r:
             batch = json.load(r)
         repos += [
-            {"name": x["name"], "language": x["language"], "fork": x["fork"], "archived": x["archived"], "pushed_at": x["pushed_at"][:10]}
+            {"name": x["name"], "language": x["language"], "fork": x["fork"], "archived": x["archived"], "created_at": x["created_at"][:10]}
             for x in batch
             if not x["private"]
         ]

@@ -663,8 +663,8 @@ def top_languages(R: dict) -> tuple[list[tuple[str, int]], int, int]:
     for r in repos:
         if r.get("language"):
             langs[r["language"]] = langs.get(r["language"], 0) + 1
-            last[r["language"]] = max(last.get(r["language"], ""), r.get("pushed_at", ""))
-    # empates: gana el lenguaje con el push más reciente (orden estable en dos pasadas)
+            last[r["language"]] = max(last.get(r["language"], ""), r.get("created_at", ""))
+    # empates: gana el lenguaje del repo más nuevo (created_at no cambia con cada push: datos estables, sin commits vacíos)
     by_recent = sorted(langs.items(), key=lambda kv: last[kv[0]], reverse=True)
     top = sorted(by_recent, key=lambda kv: -kv[1])[:5]
     return top, len(repos), len(langs)
